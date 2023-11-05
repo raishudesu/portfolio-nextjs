@@ -19,7 +19,12 @@ const ProjectCard = ({ title, summary, image, links }: TProjects) => {
         <CardDescription>{summary}</CardDescription>
       </CardHeader>
       <CardContent>
-        <Image src={image} alt="project" className="rounded-lg" />
+        <Image
+          src={image}
+          alt="project"
+          className="rounded-lg"
+          loading="lazy"
+        />
       </CardContent>
       <CardFooter className="flex justify-center gap-2">
         <Link href={links.github} className="text-[#16BC25]">

@@ -13,7 +13,12 @@ const About = () => {
         About me
       </h2>
       <div className="grid md:grid-cols-2 justify-items-center items-center gap-6 mt-6">
-        <Image src={about} alt="about-image" className="w-full max-w-[500px]" />
+        <Image
+          src={about}
+          alt="about-image"
+          className="w-full max-w-[500px]"
+          loading="lazy"
+        />
         <div className="flex flex-col">
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             I&apos;m a passionate developer with a strong commitment in

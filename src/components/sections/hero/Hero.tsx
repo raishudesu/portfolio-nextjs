@@ -27,7 +27,8 @@ const Hero = () => {
         <Image
           src={HeroImg}
           alt="hero-image"
-          className="w-full max-w-[400px] shadow-md rounded-full animate-profile_animate"
+          className="w-full max-w-[350px] shadow-md rounded-full animate-profile_animate"
+          loading="lazy"
         />
       </div>
     </div>

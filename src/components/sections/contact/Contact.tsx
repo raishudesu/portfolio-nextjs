@@ -13,6 +13,7 @@ const Contact = () => {
           src={contact}
           alt="contact-illustration"
           className="max-w-[325px]"
+          loading="lazy"
         />
         <ContactForm />
       </div>
