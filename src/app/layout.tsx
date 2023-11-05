@@ -27,7 +27,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} scrollbar-thin scrollbar-thumb-[#16BC25] scrollbar-track-gray-100 dark:scrollbar-track-[#242424]`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

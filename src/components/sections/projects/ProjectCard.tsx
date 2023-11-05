@@ -6,21 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image, { StaticImageData } from "next/image";
+import { TProjects } from "@/lib/types";
+import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-
-type TLinks = {
-  github: string;
-  live: string;
-};
-
-type TProjects = {
-  title: string;
-  summary: string;
-  image: StaticImageData;
-  links: TLinks;
-};
 
 const ProjectCard = ({ title, summary, image, links }: TProjects) => {
   return (

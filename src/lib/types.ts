@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { z } from "zod";
 
 export const formSchema = z.object({
@@ -13,4 +14,16 @@ export const formSchema = z.object({
 export type FormValues = {
   email: string;
   message: string;
+};
+
+export type TLinks = {
+  github: string;
+  live: string;
+};
+
+export type TProjects = {
+  title: string;
+  summary: string;
+  image: StaticImageData;
+  links: TLinks;
 };
