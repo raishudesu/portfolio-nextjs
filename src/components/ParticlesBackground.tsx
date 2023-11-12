@@ -21,7 +21,7 @@ const ParticlesBackground = () => {
             color: "#16BC25",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.2,
             width: 1,
           },
           move: {
@@ -29,19 +29,19 @@ const ParticlesBackground = () => {
             direction: "none",
             enable: true,
             outMode: "out",
-            random: false,
+            random: true,
             speed: 1,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000,
             },
-            value: 80,
+            value: 50,
           },
           opacity: {
-            value: 0.5,
+            value: 1,
           },
           shape: {
             type: "circle",

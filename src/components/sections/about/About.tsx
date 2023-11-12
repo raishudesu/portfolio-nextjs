@@ -23,7 +23,7 @@ const About = () => {
           loading="lazy"
         />
         <div className="flex flex-col">
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
+          <p className="leading-7 [&:not(:first-child)]:mt-6 text-center md:text-start">
             I&apos;m a passionate developer with a strong commitment in
             continuous learning. My expertise lies in web development, with a
             focus on providing smooth user experiences. I excel in collaborative

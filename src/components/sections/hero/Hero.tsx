@@ -7,10 +7,10 @@ export const headingGradient =
 
 const Hero = () => {
   return (
-    <div className="w-full max-w-screen-xl grid md:grid-cols-2 items-center gap-6">
+    <div className="w-full max-w-screen-xl grid md:grid-cols-2 items-center gap-6 text-center md:text-start">
       <div className="flex flex-col gap-6">
         <h1
-          className={`scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl ${headingGradient}`}
+          className={`scroll-m-20 text-5xl font-extrabold tracking-tight ${headingGradient}`}
         >
           Barysh Nikov Bacaltos
         </h1>
@@ -26,7 +26,7 @@ const Hero = () => {
           learning, with a meticulous eye for detail.
         </p>
 
-        <div className="flex items-center gap-2">
+        <div className="flex justify-center md:justify-start items-center gap-2">
           <Links />
         </div>
       </div>

@@ -10,7 +10,7 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 text-center md:text-start">
         {projects.map(({ title, summary, image, links }, index) => (
           <ProjectCard
             title={title}
