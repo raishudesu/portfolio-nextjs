@@ -20,12 +20,14 @@ const ProjectCard = ({ title, summary, image, stack, links }: TProjects) => {
         <CardDescription>{summary}</CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col items-center">
-        <Image
-          src={image}
-          alt="project"
-          className="rounded-lg mb-3"
-          loading="lazy"
-        />
+        <div className="rounded-lg mb-3 overflow-hidden">
+          <Image
+            src={image}
+            alt="project"
+            className=" hover:scale-125 transition ease-in-out"
+            loading="lazy"
+          />
+        </div>
         <div className="flex flex-wrap gap-2">
           {stack.map((stack, index) => (
             <Badge variant={"secondary"} key={index}>

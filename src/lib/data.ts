@@ -4,6 +4,17 @@ import studev from "../assets/studev.png";
 
 export const projects = [
   {
+    title: "Stu/dev Forums (Ongoing)",
+    summary:
+      "Enhancing learning development by collaborating with other aspiring students and professionals.",
+    image: studev,
+    stack: ["NextJS", "Typescript", "MongoDB", "ShadcnUI"],
+    links: {
+      github: "https://github.com/raishudesu/studev-forums",
+      live: "https://studev-forums.vercel.app",
+    },
+  },
+  {
     title: "Reverie",
     summary:
       "A web-based diary application that's accessible from both desktop and mobile browsers.",
@@ -23,17 +34,6 @@ export const projects = [
     links: {
       github: "https://github.com/raishudesu/quillify-client",
       live: "https://quillify.vercel.app",
-    },
-  },
-  {
-    title: "Stu/dev Forums (Ongoing)",
-    summary:
-      "Enhancing learning development by collaborating with other aspiring students and professionals.",
-    image: studev,
-    stack: ["NextJS", "Typescript", "MongoDB", "ShadcnUI"],
-    links: {
-      github: "https://github.com/raishudesu/studev-forums",
-      live: "https://studev-forums.vercel.app",
     },
   },
 ];
