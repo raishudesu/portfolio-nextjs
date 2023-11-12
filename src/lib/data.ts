@@ -1,5 +1,6 @@
 import reverie from "../assets/reverie.png";
 import quillify from "../assets/quillify.png";
+import studev from "../assets/studev.png";
 
 export const projects = [
   {
@@ -20,6 +21,16 @@ export const projects = [
     links: {
       github: "https://github.com/raishudesu/quillify-client",
       live: "https://quillify.vercel.app",
+    },
+  },
+  {
+    title: "Stu/dev Forums",
+    summary:
+      "Enhancing learning development by collaborating with other aspiring students and professionals.",
+    image: studev,
+    links: {
+      github: "https://github.com/raishudesu/studev-forums",
+      live: "https://studev-forums.vercel.app",
     },
   },
 ];
