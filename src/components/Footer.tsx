@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="h-20 bg-[#242424] text-[#f0f0f0]">
+    <footer className="h-20 bg-[#1c1917] text-[#f2f2f2]">
       <div className="h-full w-full text-sm flex flex-col justify-center items-center gap-3 py-6  ">
         <div className="flex gap-1 items-center">
           <Image src={logo} alt="console-icon" className="max-w-[25px]" />

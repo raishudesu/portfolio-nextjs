@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header
       id="top"
-      className="px-6 backdrop-blur-xl w-full flex justify-center shadow-md dark:shadow-slate-900"
+      className="px-6 backdrop-blur-xl w-full flex justify-center border"
     >
       <div className="w-full max-w-screen-xl flex justify-between items-center h-16">
         <Link

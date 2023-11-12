@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import about from "../../../assets/about-img.svg";
 import TechStack from "../tech-stack/TechStack";
+import { headingGradient } from "../hero/Hero";
 
 const About = () => {
   return (
@@ -9,7 +10,9 @@ const About = () => {
       id="about"
       className="w-full max-w-screen-xl flex flex-col items-center"
     >
-      <h2 className="w-full text-center scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+      <h2
+        className={`w-full text-center scroll-m-20 border-b pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 ${headingGradient}`}
+      >
         About me
       </h2>
       <div className="grid md:grid-cols-2 justify-items-center items-center gap-6 mt-6">
