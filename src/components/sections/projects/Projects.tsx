@@ -11,11 +11,12 @@ const Projects = () => {
         Projects
       </h2>
       <div className="grid md:grid-cols-2 gap-6 text-center md:text-start">
-        {projects.map(({ title, summary, image, links }, index) => (
+        {projects.map(({ title, summary, image, stack, links }, index) => (
           <ProjectCard
             title={title}
             summary={summary}
             image={image}
+            stack={stack}
             links={links}
             key={index}
           />

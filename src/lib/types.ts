@@ -25,5 +25,6 @@ export type TProjects = {
   title: string;
   summary: string;
   image: StaticImageData;
+  stack: string[];
   links: TLinks;
 };
