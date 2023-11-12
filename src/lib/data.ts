@@ -24,7 +24,7 @@ export const projects = [
     },
   },
   {
-    title: "Stu/dev Forums",
+    title: "Stu/dev Forums (Ongoing)",
     summary:
       "Enhancing learning development by collaborating with other aspiring students and professionals.",
     image: studev,
