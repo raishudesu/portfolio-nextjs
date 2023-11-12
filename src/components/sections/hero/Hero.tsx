@@ -35,7 +35,6 @@ const Hero = () => {
           src={HeroImg}
           alt="hero-image"
           className="w-full max-w-[350px] shadow-md rounded-full"
-          loading="lazy"
         />
       </div>
     </div>
