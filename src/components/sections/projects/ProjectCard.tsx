@@ -24,11 +24,11 @@ const ProjectCard = ({ title, summary, image, stack, links }: TProjects) => {
           <Image
             src={image}
             alt="project"
-            className=" hover:scale-125 transition ease-in-out"
+            className=" hover:scale-125 transition ease-in-out duration-300"
             loading="lazy"
           />
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap justify-center gap-2">
           {stack.map((stack, index) => (
             <Badge variant={"secondary"} key={index}>
               {stack}
