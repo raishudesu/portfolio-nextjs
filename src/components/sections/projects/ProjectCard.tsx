@@ -11,16 +11,24 @@ import { TProjects } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import { headingGradient } from "../hero/Hero";
 
-const ProjectCard = ({ title, summary, image, stack, links }: TProjects) => {
+const ProjectCard = ({
+  title,
+  summary,
+  image,
+  stack,
+  links,
+  colSpan,
+}: TProjects) => {
   return (
-    <Card>
+    <Card className={`${colSpan()} text-center`}>
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className={`${headingGradient} p-1`}>{title}</CardTitle>
         <CardDescription>{summary}</CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col items-center">
-        <div className="rounded-lg mb-3 overflow-hidden">
+        <div className="rounded-lg mb-3 overflow-hidden border">
           <Image
             src={image}
             alt="project"

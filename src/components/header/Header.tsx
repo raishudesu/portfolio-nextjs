@@ -2,8 +2,6 @@ import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
 import Sidebar from "./Sidebar";
 import NavMenu from "./NavMenu";
-import Image from "next/image";
-import logo from "../../assets/logo.svg";
 
 const Header = () => {
   return (
@@ -16,7 +14,6 @@ const Header = () => {
           href={"/"}
           className="flex gap-1 items-center scroll-m-20 text-2xl font-bold tracking-tight transition-colors first:mt-0"
         >
-          <Image src={logo} alt="console-icon" className="max-w-[25px]" />
           <p>
             <span className="text-[#16BC25]">bnb</span>.dev
           </p>

@@ -27,4 +27,5 @@ export type TProjects = {
   image: StaticImageData;
   stack: string[];
   links: TLinks;
+  colSpan: () => string | null;
 };

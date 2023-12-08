@@ -46,7 +46,7 @@ const ContactForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="w-full max-w-[500px] flex flex-col gap-6 shadow-md p-6 rounded-lg mt-6 bg-background dark:bg-[#1c1917]"
+        className="w-full flex flex-col gap-6 py-6"
       >
         <FormField
           control={form.control}

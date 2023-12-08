@@ -38,7 +38,7 @@ export default function RootLayout({
         >
           <Header />
           <PageWrapper>
-            <main className="min-h-screen p-6">{children}</main>
+            <main className="min-h-screen py-6">{children}</main>
           </PageWrapper>
           <Footer />
           <BackToTop />
