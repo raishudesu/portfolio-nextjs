@@ -10,7 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Particles } from "@/components/Particles";
 
 const About = () => {
   return (
@@ -18,7 +17,6 @@ const About = () => {
       id="about"
       className="w-full max-w-screen-xl flex flex-col items-center"
     >
-      <Particles className="absolute inset-0 -z-10" />
       <div className="grid md:grid-cols-2 justify-items-center items-center gap-6 mt-6">
         <Card className="h-full">
           <CardContent className="mt-12">

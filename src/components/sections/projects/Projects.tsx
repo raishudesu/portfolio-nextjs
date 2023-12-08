@@ -1,7 +1,6 @@
 import { projects } from "@/lib/data";
 import ProjectCard from "./ProjectCard";
 import { headingGradient } from "../hero/Hero";
-import { Particles } from "@/components/Particles";
 
 const Projects = () => {
   const colSpan = (index: number): string | null => {
@@ -14,7 +13,6 @@ const Projects = () => {
       id="projects"
       className="w-full max-w-screen-xl flex flex-col gap-6 mt-12"
     >
-      <Particles className="absolute inset-0 -z-10" />
       <h2
         className={`w-full mt-10 scroll-m-20 border-b pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0 text-center ${headingGradient}`}
       >
