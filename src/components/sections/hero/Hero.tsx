@@ -40,6 +40,7 @@ const Hero = () => {
             src={HeroImg}
             alt="hero-image"
             className="w-full max-w-[225px] shadow-md rounded-full"
+            loading="lazy"
           />
         </CardContent>
       </Card>
