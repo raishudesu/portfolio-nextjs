@@ -9,7 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Particles } from "@/components/Particles";
 
 export const headingGradient =
   "text-transparent bg-clip-text bg-gradient-to-b from-gray-900 via-gray-700 to-gray-600 dark:from-gray-100 dark:to-gray-400";
@@ -17,7 +16,6 @@ export const headingGradient =
 const Hero = () => {
   return (
     <div className="w-full max-w-screen-xl grid md:grid-cols-2 items-center gap-6 text-center md:text-start">
-      <Particles className="absolute inset-0 -z-10" />
       <Card className="text-center h-full">
         <CardHeader>
           <CardTitle className={`${headingGradient} text-3xl font-bold`}>
