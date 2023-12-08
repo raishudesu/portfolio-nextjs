@@ -86,6 +86,7 @@ const ContactForm = () => {
           type="submit"
           disabled={loading}
           className="self-stretch md:self-start"
+          title="submit-form"
         >
           {loading ? (
             <div className="animate-spin">

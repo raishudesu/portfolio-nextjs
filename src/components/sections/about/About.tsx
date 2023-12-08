@@ -55,6 +55,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full p-4"
+                title="download-cv"
               >
                 Download CV
               </a>

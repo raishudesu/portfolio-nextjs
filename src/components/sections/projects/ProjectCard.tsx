@@ -45,10 +45,18 @@ const ProjectCard = ({
         </div>
       </CardContent>
       <CardFooter className="flex justify-center gap-2">
-        <Link href={links.github} className="text-[#16BC25]">
+        <Link
+          href={links.github}
+          className="text-[#16BC25]"
+          aria-label={`${links.github}`}
+        >
           <AiFillGithub size={30} />
         </Link>
-        <Link href={links.live} className="text-[#16BC25]">
+        <Link
+          href={links.live}
+          className="text-[#16BC25]"
+          aria-label={`${links.live}`}
+        >
           <AiOutlineLink size={30} />
         </Link>
       </CardFooter>

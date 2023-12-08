@@ -4,12 +4,17 @@ import { BiLogoUpwork } from "react-icons/bi";
 const Links = () => {
   return (
     <>
-      <Link href="https://github.com/raishudesu" className="text-[#16BC25]">
+      <Link
+        href="https://github.com/raishudesu"
+        className="text-[#16BC25]"
+        aria-label="Visit my Github"
+      >
         <AiFillGithub size={30} />
       </Link>
       <Link
         href="https://www.upwork.com/freelancers/~01f820ee60c225abf9"
         className="text-[#16BC25]"
+        aria-label="Visit my Upwork Account"
       >
         <BiLogoUpwork size={30} />
       </Link>
