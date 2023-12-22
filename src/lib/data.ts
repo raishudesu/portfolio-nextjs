@@ -1,17 +1,17 @@
 import reverie from "../assets/reverie.png";
 import quillify from "../assets/quillify.png";
-import studev from "../assets/studev.png";
+import estudev from "../assets/estudev.png";
 
 export const projects = [
   {
-    title: "Stu/dev Forums (Ongoing)",
+    title: "eStudev (Ongoing)",
     summary:
-      "Enhancing learning development by collaborating with other aspiring students and professionals.",
-    image: studev,
-    stack: ["NextJS", "Typescript", "MongoDB", "ShadcnUI"],
+      "Discover a collaborative network of student developers to elevate your development skills and tech career aspirations.",
+    image: estudev,
+    stack: ["NextJS", "Typescript", "PostgreSQL", "ShadcnUI", "Prisma"],
     links: {
-      github: "https://github.com/raishudesu/studev-forums",
-      live: "https://studev-forums.vercel.app",
+      github: "https://github.com/raishudesu/eStudev",
+      live: "https://estudev.vercel.app",
     },
   },
   {

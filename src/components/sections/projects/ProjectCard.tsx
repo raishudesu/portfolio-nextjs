@@ -49,6 +49,7 @@ const ProjectCard = ({
           href={links.github}
           className="text-[#16BC25]"
           aria-label={`${links.github}`}
+          target="_blank"
         >
           <AiFillGithub size={30} />
         </Link>
@@ -56,6 +57,7 @@ const ProjectCard = ({
           href={links.live}
           className="text-[#16BC25]"
           aria-label={`${links.live}`}
+          target="_blank"
         >
           <AiOutlineLink size={30} />
         </Link>
